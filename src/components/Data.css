@@ -1,0 +1,13 @@
+.info {
+    margin-top: 15px;
+}
+
+.item {
+    list-style: none;
+    text-align: center;
+}
+
+.item:not(:last-child) {
+    border-bottom: 1px solid black;
+}
+
